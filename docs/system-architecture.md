@@ -13,22 +13,7 @@ Each worker process is responsible for calculating a subset of matrix rows. Afte
 ## Architecture Diagram
 
 ```text
-+------------------+
-|   Main Process   |
-+------------------+
-          |
-          v
-+----+ +----+ +----+ +----+
-| P1 | | P2 | | P3 | | P4 |
-+----+ +----+ +----+ +----+
-   |      |      |      |
-   v      v      v      v
- Matrix Rows Processing
-          |
-          v
-+------------------+
-|   Final Result   |
-+------------------+
+![Architecture Diagram](../image/architecture.png)
 ```
 
 ## Work Distribution
