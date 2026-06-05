@@ -36,7 +36,7 @@ parallel.py
 ```
 Speedup = Sequential Time / Parallel Time
 Speedup = 24.48 / 9.60
-Speedup = 1.55x
+Speedup = 2.55x
 ```
 
 ## Conclusion
