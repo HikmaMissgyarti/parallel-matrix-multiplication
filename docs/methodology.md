@@ -1,9 +1,5 @@
 # Methodology
 
-[← Problem Statement](./problem-statement.md) | [Next → System Architecture](./system-architecture.md)
-
----
-
 This project compares two different approaches to matrix multiplication: sequential processing and parallel processing.
 
 ## Sequential Approach

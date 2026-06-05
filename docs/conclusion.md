@@ -1,9 +1,5 @@
 # Conclusion
 
-[← Performance Analysis](./performance-analysis.md) | [Back to Home](./index.md)
-
----
-
 This project successfully implemented matrix multiplication using both sequential and parallel approaches.
 
 The experimental results showed that parallel processing reduced the execution time from 24.48 seconds to 9.60 seconds.

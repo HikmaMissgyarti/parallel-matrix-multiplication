@@ -1,9 +1,5 @@
 # Testing & Results
 
-[← Implementation](./implementation.md) | [Next → Performance Analysis](./performance-analysis.md)
-
----
-
 The project was tested by multiplying two large matrices using both sequential and parallel approaches.
 
 ## Test Results
