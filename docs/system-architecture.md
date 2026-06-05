@@ -13,17 +13,22 @@ Each worker process is responsible for calculating a subset of matrix rows. Afte
 ## Architecture Diagram
 
 ```text
-Main Process
-      |
--------------------------
-|    |    |    |
-P1   P2   P3   P4
-|    |    |    |
-Rows Rows Rows Rows
-      |
- Merge Results
-      |
- Final Matrix
++------------------+
+|   Main Process   |
++------------------+
+          |
+          v
++----+ +----+ +----+ +----+
+| P1 | | P2 | | P3 | | P4 |
++----+ +----+ +----+ +----+
+   |      |      |      |
+   v      v      v      v
+ Matrix Rows Processing
+          |
+          v
++------------------+
+|   Final Result   |
++------------------+
 ```
 
 ## Work Distribution

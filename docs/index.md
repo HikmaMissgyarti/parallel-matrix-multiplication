@@ -12,7 +12,7 @@
 - [Methodology](./methodology.md)
 - [System Architecture](./system-architecture.md)
 - [Implementation](./implementation.md)
-- [Testing & Results](./testing-results.md)
+- [Testing & Results](./testing-result.md)
 - [Performance Analysis](./performance-analysis.md)
 - [Conclusion](./conclusion.md)
 
@@ -54,11 +54,23 @@ The main objective is to analyze the performance difference between sequential a
 ```text
 parallel-matrix-multiplication
 │
+├── docs
+│   ├── index.md
+│   ├── introduction.md
+│   ├── problem-statement.md
+│   ├── methodology.md
+│   ├── system-architecture.md
+│   ├── implementation.md
+│   ├── testing-results.md
+│   ├── performance-analysis.md
+│   └── conclusion.md
+│
 ├── main.py
 ├── sequential.py
 ├── parallel.py
 ├── README.md
-└── screenshots
+└── screenshot
+    └── result.png
 ```
 
 ---
@@ -75,14 +87,3 @@ parallel-matrix-multiplication
 **2.55x**
 
 ---
-
-## Navigation
-
-* Introduction
-* Problem Statement
-* Methodology
-* System Architecture
-* Implementation
-* Testing & Results
-* Performance Analysis
-* Conclusion
