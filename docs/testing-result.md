@@ -23,6 +23,6 @@ Speedup = 2.55x
 
 ## Result Screenshot
 
-![Testing Result](../images/result.png)
+![Testing Result](images/result.png)
 
 The results show that the parallel implementation completed the computation significantly faster than the sequential implementation.
