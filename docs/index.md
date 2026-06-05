@@ -63,11 +63,11 @@ parallel-matrix-multiplication
 │   ├── implementation.md
 │   ├── testing-results.md
 │   ├── performance-analysis.md
-│   └── conclusion.md
-│
-├── images
-│   ├── architecture.png
-│   └── result.png
+│   ├── conclusion.md
+│   │
+│   └── images
+│       ├── architecture.png
+│       └── result.png
 │
 ├── main.py
 ├── sequential.py
