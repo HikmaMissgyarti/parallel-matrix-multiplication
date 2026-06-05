@@ -21,9 +21,8 @@ Speedup = 24.48 / 9.60
 
 Speedup = 2.55x
 
-```md
 ## Result Screenshot
 
-![Testing Result](../screenshot/result.png)
+![Testing Result](/parallel-matrix-multiplication/images/result.png)
 
 The results show that the parallel implementation completed the computation significantly faster than the sequential implementation.

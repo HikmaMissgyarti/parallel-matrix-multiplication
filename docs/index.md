@@ -65,12 +65,14 @@ parallel-matrix-multiplication
 │   ├── performance-analysis.md
 │   └── conclusion.md
 │
+├── images
+│   ├── architecture.png
+│   └── result.png
+│
 ├── main.py
 ├── sequential.py
 ├── parallel.py
-├── README.md
-└── screenshot
-    └── result.png
+└── README.md
 ```
 
 ---
