@@ -1,5 +1,9 @@
 # Implementation
 
+[← System Architecture](./system-architecture.md) | [Next → Testing & Results](./testing-results.md)
+
+---
+
 The project is implemented using Python and the multiprocessing library.
 
 ## Main Program

@@ -1,5 +1,9 @@
 # Testing & Results
 
+[← Implementation](./implementation.md) | [Next → Performance Analysis](./performance-analysis.md)
+
+---
+
 The project was tested by multiplying two large matrices using both sequential and parallel approaches.
 
 ## Test Results
@@ -17,8 +21,9 @@ Speedup = 24.48 / 9.60
 
 Speedup = 2.55x
 
+```md
 ## Result Screenshot
 
-Insert the terminal output screenshot in this section.
+![Testing Result](../screenshot/result.png)
 
 The results show that the parallel implementation completed the computation significantly faster than the sequential implementation.

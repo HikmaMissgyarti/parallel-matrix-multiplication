@@ -1,5 +1,9 @@
 # Introduction
 
+[← Home](./index.md) | [Next → Problem Statement](./problem-statement.md)
+
+---
+
 Parallel computing is a method of solving computational problems by dividing a task into smaller parts that can run simultaneously.
 
 Many modern computers have multiple CPU cores, allowing several processes to execute at the same time. By taking advantage of these resources, computational tasks can be completed faster compared to traditional sequential execution.

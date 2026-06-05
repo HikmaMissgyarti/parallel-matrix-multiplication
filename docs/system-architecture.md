@@ -1,5 +1,9 @@
 # System Architecture
 
+[← Methodology](./methodology.md) | [Next → Implementation](./implementation.md)
+
+---
+
 The system consists of a main process and four worker processes.
 
 The main process generates the matrices and distributes the workload to multiple worker processes.
