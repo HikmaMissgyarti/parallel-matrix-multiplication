@@ -12,9 +12,7 @@ Each worker process is responsible for calculating a subset of matrix rows. Afte
 
 ## Architecture Diagram
 
-```text
-![Architecture Diagram](../image/architecture.png)
-```
+![Architecture Diagram](../images/architecture.png)
 
 ## Work Distribution
 
