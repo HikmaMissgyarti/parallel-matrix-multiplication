@@ -1,22 +1,44 @@
-# Parallel Matrix Multiplication
+# Parallel Matrix Multiplication Using Python Multiprocessing
 
-Project for Parallel Computing and Distributed Systems Course.
+## Overview
 
-## Team Project
+This project compares the performance of sequential and parallel matrix multiplication using Python. The parallel implementation uses the multiprocessing library to distribute computation across multiple processes.
 
-Parallel Matrix Multiplication using Python Multiprocessing.
+## Objectives
 
-## Features
+* Understand the concept of parallel computing.
+* Compare sequential and parallel execution times.
+* Measure performance improvement using speedup analysis.
 
-- Sequential Matrix Multiplication
-- Parallel Matrix Multiplication
-- Performance Comparison
-- Speedup Analysis
+## Technologies
 
-## Example Result
+* Python 3
+* Multiprocessing Library
+* GitHub
 
-Sequential : 23.23 seconds
+## Project Structure
 
-Parallel : 8.75 seconds
+```
+main.py
+sequential.py
+parallel.py
+```
 
-Speedup : 2.66x
+## Testing Result
+
+| Method     | Execution Time |
+| ---------- | -------------- |
+| Sequential | 24.48 seconds  |
+| Parallel   | 9.60 seconds   |
+
+### Speedup
+
+```
+Speedup = Sequential Time / Parallel Time
+Speedup = 24.48 / 9.60
+Speedup = 1.55x
+```
+
+## Conclusion
+
+The parallel implementation successfully reduced execution time by distributing matrix multiplication tasks across multiple processes. The experiment achieved a speedup of approximately 2.55 times compared to the sequential approach.
